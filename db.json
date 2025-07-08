@@ -1,0 +1,244 @@
+{
+  "usuarios": [
+    {
+      "id": "1",
+      "tipo": "productor",
+      "email": "productor@correo.com",
+      "password": "123456"
+    },
+    {
+      "id": "2",
+      "tipo": "distribuidor",
+      "email": "distribuidor@correo.com",
+      "password": "abcdef"
+    },
+    {
+      "id": "a848",
+      "nombre": "jhordi",
+      "email": "jhordict20@gmail.com",
+      "lugar": "cutervo",
+      "password": "12345",
+      "tipo": "productor"
+    },
+    {
+      "id": "c15d",
+      "nombre": "Steve",
+      "email": "steveabedul@gmail.com",
+      "password": "12345",
+      "tipo": "distribuidor"
+    },
+    {
+      "id": "9c88",
+      "nombre": "Alex",
+      "email": "alex@gmail.com",
+      "lugar": "Jaen",
+      "password": "12345",
+      "tipo": "productor"
+    },
+    {
+      "id": "2136",
+      "nombre": "",
+      "email": "",
+      "lugar": "",
+      "password": "",
+      "tipo": "productor"
+    },
+    {
+      "id": "dc2b",
+      "nombre": "",
+      "email": "",
+      "lugar": "",
+      "password": "",
+      "tipo": "productor"
+    },
+    {
+      "id": "883f",
+      "nombre": "",
+      "email": "",
+      "lugar": "",
+      "password": "",
+      "tipo": "productor"
+    },
+    {
+      "id": "01c3",
+      "nombre": "",
+      "email": "",
+      "password": "",
+      "tipo": "distribuidor"
+    },
+    {
+      "id": "dc23",
+      "nombre": "",
+      "email": "",
+      "password": "",
+      "tipo": "distribuidor"
+    },
+    {
+      "id": "11b3",
+      "nombre": "",
+      "email": "",
+      "lugar": "",
+      "password": "",
+      "tipo": "productor"
+    },
+    {
+      "id": "4c6c",
+      "nombre": "",
+      "email": "",
+      "password": "",
+      "tipo": "distribuidor"
+    },
+    {
+      "id": "df6e",
+      "nombre": "",
+      "email": "",
+      "password": "",
+      "tipo": "distribuidor"
+    }
+  ],
+  "producciones": [
+    {
+      "id": "a48f",
+      "usuarioId": "a848",
+      "nombre": "Ccccc",
+      "descripcion": "Ubicación: cutervo, Variedad: cafee, Etapa: Floración, Fecha: 2025-05-29"
+    },
+    {
+      "id": "3106",
+      "usuarioId": "1",
+      "nombre": "Finca",
+      "descripcion": "Ubicación: Lima, Variedad: Cafe Gourmet, Etapa: cosecha, Fecha: 2025-07-07"
+    }
+  ],
+  "inventario": [
+    {
+      "id": "0104",
+      "usuarioId": null,
+      "producto": "Café Tostado",
+      "fecha": "2025-05-30",
+      "estado": "Buen Estado",
+      "cantidad": 5
+    },
+    {
+      "id": "959c",
+      "usuarioId": 1,
+      "producto": "ProductoPrueba",
+      "fecha": "2025-07-08",
+      "estado": "Regular Estado",
+      "cantidad": 200
+    }
+  ],
+  "publicaciones": [
+    {
+      "id": "4cc3",
+      "usuarioId": "1",
+      "titulo": "Publicación 2",
+      "datos": "Publicación 2",
+      "privacidad": "publica",
+      "fecha": "2025-07-08",
+      "imagen": null
+    }
+  ],
+  "pedidos": [
+    {
+      "id": "1",
+      "fecha": "2025-07-01",
+      "cliente": "Café Perú SAC",
+      "costo": 120.5
+    },
+    {
+      "id": "2",
+      "fecha": "2025-07-03",
+      "cliente": "Exportadora Andina",
+      "costo": 210
+    },
+    {
+      "id": "3",
+      "fecha": "2025-07-04",
+      "cliente": "EcoCafé Distribuciones",
+      "costo": 145.75
+    },
+    {
+      "id": "4",
+      "fecha": "2025-07-05",
+      "cliente": "Amazonas Coffee",
+      "costo": 99.9
+    },
+    {
+      "id": "5",
+      "fecha": "2025-07-06",
+      "cliente": "Q'Warmi Orgánico",
+      "costo": 180
+    },
+    {
+      "id": "f9ea",
+      "cliente": "16",
+      "costo": 700,
+      "fecha": "2025-07-08"
+    },
+    {
+      "id": "6",
+      "usuarioId": "c15d",
+      "productos": [
+        {
+          "productoId": "p001",
+          "cantidad": 2
+        },
+        {
+          "productoId": "p002",
+          "cantidad": 1
+        }
+      ],
+      "fecha": "2025-07-08",
+      "costo": 88.5
+    },
+    {
+      "id": "588f",
+      "publicacionId": "4cc3",
+      "fecha": "2025-07-08T22:18:51.656Z",
+      "distribuidorId": "2",
+      "cantidad": 2,
+      "precio": 25
+    }
+  ],
+  "productos": [
+    {
+      "id": "p001",
+      "nombre": "Café Gourmet",
+      "descripcion": "Café de altura, aroma intenso y sabor equilibrado.",
+      "precio": 30,
+      "stock": 120,
+      "productorId": "a848"
+    },
+    {
+      "id": "p002",
+      "nombre": "Café Orgánico",
+      "descripcion": "Cultivado sin pesticidas en tierras altas de Cutervo.",
+      "precio": 28.5,
+      "stock": 90,
+      "productorId": "9c88"
+    },
+    {
+      "id": "p003",
+      "nombre": "Café Lavado",
+      "descripcion": "Proceso lavado, acidez media, ideal para espresso.",
+      "precio": 25,
+      "stock": 150,
+      "productorId": "1"
+    }
+  ],
+  "carrito": [
+    {
+      "id": "c001",
+      "usuarioId": "c15d",
+      "productoId": "p001",
+      "cantidad": 2
+    },
+    {
+      "id": "c002",
+      "usuarioId": "c15d",
+      "productoId": "p002",
+      "cantidad": 1
+    }
+  ]
+}
